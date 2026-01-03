@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 # --- CONFIGURATION ---
 EMAIL = "toutoumch26@gmail.com"
 PASSWORD = "toutou123"
-MESSAGE_TEXT = "Hello Mr Ala Kharat"
+MESSAGE_TEXT = "Hello World"
 
 
 def human_type(element, text):
@@ -94,3 +94,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
